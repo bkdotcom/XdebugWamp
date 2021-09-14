@@ -1,0 +1,29 @@
+{
+    "name": "bdk/xdebug-wamp",
+    "description": "Xdebug to DebugWampClient \"proxy\"",
+    "keywords": ["debug", "xdebug", "wamp", "phpdebugconsole"],
+    "homepage": "http://github.com/bkdotcom/XdebugWamp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Brad Kent",
+            "email": "bkfake-github@yahoo.com",
+            "homepage": "http://www.bradkent.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "bdk\\XdebugWamp\\": "src/"
+        }
+    },
+    "require": {
+        "bdk/debug": "dev-master",
+        "voryx/thruway": "^0.6.0",
+        "thruway/pawl-transport": "^0.5.1"
+    },
+    "suggest": {
+        "bdk/debug-wamp-client": "Html/Javascript WAMP based debug client used in conjuction with PHPDebugConsole on the server"
+    }
+}
